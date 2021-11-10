@@ -14,7 +14,7 @@ namespace RPS
 
         {
             Random selection = new Random();
-            int letGo = selection.Next(1, 3);
+            int letGo = selection.Next(1, 4);
             if (letGo == 1)
             {
                 return RPS.Rock;
